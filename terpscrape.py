@@ -9,15 +9,10 @@
 # PDFs produced by growers and manufactures operating within the Maryland
 # Medical Cannabis Industry and formats it for use in labeling or posting to a
 # website.
-# *****THIS IS A PROTOTYPE BUILD
 #
 # Code logic
 # > Scan program folder for Portable Document Format (PDF) files
 # > Extracts Terpene Tables from PDFs
-#   > The current method reads the data over an area, rather than iterating
-#   through all of the content. To be honest, the iteration is probably the
-#   way to go--especially for making scalable code, or a single set of code that
-#   will work with all terpene tables--but this is something that works today.
 # > Format and Print Found information to TXT files
 
 import os, shutil, tabula
